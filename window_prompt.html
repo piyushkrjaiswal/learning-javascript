@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>window-prompt Machine</title>
+    </head>
+    <body>
+      <button>
+          Press Me
+      </button>
+
+      <script>
+          var button = document.querySelector('button');
+
+          button.onclick = function() {
+              var name = prompt('What is your name?');
+              alert('Hello ' + name + ', nice to see you!');
+          }
+      </script>
+    </body>
+
+</html>
